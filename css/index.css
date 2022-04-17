@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inconsolata:wght@300;500;700&family=Poppins:wght@100;200;300&family=Updock&display=swap');
+
+* {
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background-image: url(../images/backintro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo-principal {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: black;
+    width: 60%;
+    padding: 20px;
+    opacity: 80%;
+    margin-bottom: 15rem;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffd000;  
+    -webkit-text-stroke: 2px black; 
+}
+
+.container h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.container p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    
+}
+
+.container .lore-game {
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Fredoka One', cursive;
+}
+
+
+.start-game {
+    border: none;
+    cursor: crosshair;
+    width: 50%;
+    background: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    transition: .2s linear;
+    text-transform: uppercase;
+
+
+}
+
+.start-game:hover {
+    background: #ffd000;
+    color: black;
+    transform: scale(1.1);
+}
+
