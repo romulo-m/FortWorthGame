@@ -28,7 +28,6 @@ body {
 }
 
 .container {
-    margin-top: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,12 +40,12 @@ body {
 
 .titulo-principal {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .logo {
-    font-size: 5rem;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 800;
     color: black;  
     padding: 0.5rem;
     -webkit-text-stroke: 1px #fff; 
@@ -56,21 +55,20 @@ body {
 .container h2 {
     margin-bottom: 2rem;
     font-size: 4rem;
-    font-weight: 500;
-    -webkit-text-stroke: 1px #fff;
+    font-weight: 800;
 }
 
 .container p {
     margin-bottom: 1.7rem;
-    font-size: 2rem;  
-    font-weight: 500; 
+    font-size: 1.8rem;  
+    font-weight: 800; 
 }
 
 .container li {
     margin-bottom: 2rem;
     font-size: 1.8rem;
     text-align: left;   
-    font-weight: 500; 
+    font-weight: 800; 
 }
 
 .container .lore-game {
@@ -94,3 +92,143 @@ body {
     transform: scale(1.2);
 }
 
+/* Media Query */
+
+@media(max-width:1400px) {
+    .logo {
+        margin-top: 2.5rem;
+        font-size: 3.8rem;
+    }
+
+    .container h2 {
+        font-size: 2.5rem;
+    }
+
+    .container p {
+        font-size: 1.6rem;
+    }
+    .start-game {
+    font-size: 1rem;
+    }
+}
+
+@media(max-width:1200px) {
+    .logo {
+        margin-top: 6rem;
+        font-size: 3rem;
+    }
+
+    .container h2 {
+        font-size: 2rem;
+    }
+
+    .container p {
+        font-size: 1.25rem;
+    }
+
+    .container li {
+        font-size: 1.3rem;
+    }
+
+    .start-game {
+    font-size: 1rem;
+    }
+}
+
+@media(max-width:850px) {
+    .logo {
+        margin-top: 2.5rem;
+        font-size: 3rem;
+    }
+
+    .container {
+        width: 60%;
+    }
+
+    .container h2 {
+        font-size: 1.6rem;
+    }
+
+    .container li {
+        font-size: 1.3rem;
+    }
+
+    .container p {
+        font-size: 1.25rem;
+    }
+    .start-game {
+    font-size: 1rem;
+    }
+}
+
+@media(max-width:600px) {
+    .container {
+        width: 70%;
+    }
+
+    .logo {
+        font-size: 3rem;
+    }
+
+    .container h2 {
+        font-size: 1.5rem;
+    }
+
+    .container li {
+        font-size: 1.2rem;
+    }
+
+    .container p {
+        font-size: 1.5rem;
+    }
+    .start-game {
+    font-size: 1rem;
+    }
+}
+
+@media(max-width:540px) {
+    
+    .container {
+        width: 80%;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .container h2 {
+        font-size: 1.4rem;
+    }
+
+    .container p {
+        font-size: 1.3rem;
+    }
+    .start-game {
+    font-size: 0.8rem;
+    }
+}
+
+    @media(max-width:400px) {
+    
+        .container {
+            width: 80%;
+        }
+    
+        .logo {
+            font-size: 2rem;
+        }
+    
+        .container h2 {
+            font-size: 1.2rem;
+        }
+    
+        .container p {
+            font-size: 1.1rem;
+        }
+        .container li {
+            font-size: 1rem;
+        }
+        .start-game {
+        font-size: 0.6rem;
+        }
+    }

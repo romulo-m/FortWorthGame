@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inconsolata:wght@300;500;700&family=Poppins:wght@100;200;300&family=Updock&display=swap');
+
+* {
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../images/bank.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Inconsolata', cursive;
+}
+
+main {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: black;
+    opacity: 80%;
+    padding: 2.5em;
+    gap: 2.5em;
+    margin-right: 6rem;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffd000;  
+    -webkit-text-stroke: 0.5px #ffd000;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.position {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 0.8em;
+    text-align: center;
+}
+
+.answer {
+    border: none;
+    cursor: crosshair;
+    width: 30%;
+    background: #ffd000;
+    font-size: 1.25rem;
+    color: black;
+    border-radius: 10px;
+    transition: .2s linear;
+    text-transform: uppercase;
+    padding: 0.8em;
+}
+
+.answer:hover {
+    background: #ffd000;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* @mediaquery */
+
+@media(max-width:1300px) {
+    main {
+        width: 40%;
+    }
+}
+
+@media(max-width:1000px) {
+    main {
+        width: 60%;
+        margin-right: 3.2rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .options {
+        font-size: 1rem;
+    }
+
+    .answer {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:600px) {
+    main {
+        width: 80%;
+        margin-right: 3.2rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .options {
+        font-size: 1rem;
+    }
+
+    .answer {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:500px) {
+    body {
+        justify-content: center;
+    }
+
+    main {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .options {
+        font-size: 1rem;
+    }
+
+    .answer {
+        font-size: 1rem;
+    }
+}
