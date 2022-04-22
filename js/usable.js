@@ -1,5 +1,5 @@
 function infoGame() {
-    location.assign("/html/info.html")
+    location.assign("./html/info.html")
 }
 
 function charSelect() {
