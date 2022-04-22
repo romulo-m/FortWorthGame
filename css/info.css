@@ -20,10 +20,11 @@ body {
 }
 
 .page {
+    margin-top: 4rem;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -143,6 +144,11 @@ body {
 
     .container {
         width: 60%;
+        padding: 0;
+    }
+
+    .page {
+        margin-top: 8rem;
     }
 
     .container h2 {
@@ -164,6 +170,11 @@ body {
 @media(max-width:600px) {
     .container {
         width: 70%;
+        padding: 0;
+    }
+
+    .page {
+        margin-top: 8rem;
     }
 
     .logo {
@@ -189,7 +200,12 @@ body {
 @media(max-width:540px) {
     
     .container {
-        width: 80%;
+        width: 70%;
+        padding: 0;
+    }
+
+    .page {
+        margin-top: 8rem;
     }
 
     .logo {
