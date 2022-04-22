@@ -14,7 +14,7 @@ a {
 
 body {
     font-family: 'Inconsolata', monospace;
-    background-image: url(/images/backgnoite.jpg_large);
+    background-image: url(../images/backgnoite.jpg_large);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

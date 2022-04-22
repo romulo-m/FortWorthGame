@@ -11,7 +11,7 @@
 
 /* CONTEÚDO */
 body{    
-    background-image: url(/images/win.jpg);
+    background-image: url(../images/win.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
