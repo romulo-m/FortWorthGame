@@ -1,5 +1,5 @@
 function infoGame() {
-    location.href = "../html/info.html"
+    location.href = "./html/info.html"
 }
 
 function charSelect() {
