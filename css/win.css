@@ -11,7 +11,7 @@
 
 /* CONTEÚDO */
 body{    
-    background-image: url(/images/backsherrif.png);
+    background-image: url(/images/win.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ h1{
 }
 
 button{
-    background-color: tomato;
+    background-color: #c6c6c6;
     font-size: 2rem;
     padding: 0.7em;
     border-radius: 15px;

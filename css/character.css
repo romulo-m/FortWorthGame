@@ -44,7 +44,7 @@ main {
 }
 
 .char-title {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 500;
     color: #ffd000;  
     -webkit-text-stroke: 1px black; 

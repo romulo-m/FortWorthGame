@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inconsolata:wght@300;500;700&family=Poppins:wght@100;200;300&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,500;1,600&display=swap');
 
 * {
     margin:0; padding:0;
@@ -8,24 +9,15 @@
     text-decoration: none;
 }
 
-.titulo-principal {
-    text-align: center;
-    margin-top: 1rem;
-}
-
 body {
     width: 100%;
     height: 100vh;
-    font-family: 'Inconsolata', monospace;
-    background-image: url(../images/backinfo.jpg);
+    font-family: 'Alegreya', serif;
+    background-image: url(../images/oldpaper.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
 
 .page {
     width: 100%;
@@ -36,64 +28,62 @@ body {
 }
 
 .container {
-    margin-top: 5em;
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: black;
     width: 50%;
     padding: 2rem;
-    opacity: 80%;
     border-radius: 2rem;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .logo {
     font-size: 5rem;
     font-weight: 500;
-    color: #ffd000;  
-    -webkit-text-stroke: 2px black; 
+    color: black;  
+    padding: 0.5rem;
+    -webkit-text-stroke: 1px #fff; 
+    border-radius: 10px;
 }
 
 .container h2 {
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 500;
-    color: #ffd000;
+    -webkit-text-stroke: 1px #fff;
 }
 
 .container p {
     margin-bottom: 1.7rem;
-    font-size: 1.5rem;
-    color: #fff;
-    
+    font-size: 2rem;  
+    font-weight: 500; 
 }
 
 .container li {
     margin-bottom: 2rem;
-    font-size: 1.5rem;
-    color: #fff;
-    text-align: left;
-    
+    font-size: 1.8rem;
+    text-align: left;   
+    font-weight: 500; 
 }
 
 .container .lore-game {
     text-align: center;
 }
 
-.logo {
-    font-family: 'Fredoka One', cursive;
-}
-
-
 .start-game {
     border: none;
     cursor: crosshair;
     width: 50%;
-    background: #fff;
+    background: black;
     font-size: 1.25rem;
-    color: black;
+    color: #fff;
     border-radius: 10px;
     transition: .2s linear;
     text-transform: uppercase;
@@ -101,8 +91,6 @@ body {
 }
 
 .start-game:hover {
-    background: #ffd000;
-    color: black;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
