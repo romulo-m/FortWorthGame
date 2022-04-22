@@ -197,5 +197,9 @@ body {
         flex-direction: column;        
     }
 
+    .char-item {
+        margin-bottom: 0;
+    }
+
 }
 
