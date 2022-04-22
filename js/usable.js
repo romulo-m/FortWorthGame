@@ -27,5 +27,5 @@ function respostaCerta(certa, errada, gameOver, msgCerta, msgErrada, gOverMsg, p
     } else {
         alert ("Digite uma opção válida!!!")
     }
-}
+    }
 }   
